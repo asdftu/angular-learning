@@ -1,0 +1,7 @@
+<div>
+  <ul class="elds">
+    <li *ngFor="let edl of edls" (click)="onSelect(edl)" [class.selected]="edl === selectedEdl">
+      <span class="badge">{{edl.eventId}}</span> {{edl.eventType}}
+    </li>
+  </ul>
+</div>

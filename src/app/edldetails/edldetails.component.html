@@ -1,0 +1,10 @@
+<h2>{{ edl.eventType | uppercase }} Details</h2>
+<div><span>id: </span>{{edl.eventId}}</div>
+<div>
+  <label>eventType:
+    <input [(ngModel)]="edl.eventType" placeholder="type">
+  </label>
+  <label>eventId
+    <input [(ngModel)]="edl.eventId" placeholder="id">
+  </label>
+</div>
